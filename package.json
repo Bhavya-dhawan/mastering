@@ -1,5 +1,5 @@
 {
-  "name": "tailwind",
+  "name": "c",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,26 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8",
     "vite": "^6.3.5"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.8",
-    "tailwindcss": "^4.1.8"
-  }
+    "@tailwindcss/vite": "^4.1.8"
+  },
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhavya-dhawan/mastering.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhavya-dhawan/mastering/issues"
+  },
+  "homepage": "https://github.com/Bhavya-dhawan/mastering#readme",
+  "keywords": [],
+  "description": ""
 }
+
