@@ -6,8 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body class = "h-screen flex items-center justify-center bg-orange-400">
-    <div >oh my god</div>
+  <body class = " overflow-hidden h-screen flex bg-gray-500 justify-center items-center"  >
+        <div class=" m-20 rounded-2xl shadow-2xl flex-col flex justify-center items-end  bg-white">
+          <div class= " gap-4 flex ">
+            <div>
+              <img class="my-1 mx-2  w-[30vw] md:w-[6vw]" src="images/warning.png" alt="">
+            </div>
+            <div  >
+                <h2 class = "font-bold text-2xl">Account deactivation!!</h2>
+                <p class = " text-gray-600">Deleting your account is permanent and cannot be undone. All your data will be lost.So,please consider your decisionDeleting your account is permanent and cannot be undone. All your data will be lost.So,please consider your decision</p>
+          </div>
+            
+          </div>
+          <div class= " mt-2 mr-5 gap-5 flex justify-evenly"> 
+            <button class = "bg-green-400 text-amber-50">Cancel</button>
+            <button class = "bg-red-400 text-amber-50">Deactivate</button>
+          </div>
+        </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
