@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title> News homepage</title>
+  <link rel="stylesheet" href="src/output.css">
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+  const toggleBtn = document.getElementById("menu-toggle");
+  const closeBtn = document.getElementById("menu-close");
+  const menu = document.getElementById("menu");
+
+  toggleBtn.addEventListener("click", () => {
+    menu.classList.remove("hidden");
+  });
+
+  closeBtn.addEventListener("click", () => {
+    menu.classList.add("hidden");
+  });
+});
+
+  </script>
+</head>
+<body>
+<div id="menu" class=" hidden absolute h-[100vh] z-10 w-[70vw] bg-amber-50 right-0 shadow-[-10px_0_20px_-5px_rgba(0,0,0,0.3)] ">
+    <button id="menu-close" class="p-4  relative left-50">
+      <img class="" src="assets/images/icon-menu-close.svg" alt="close icon">
+    </button>
+    <ul class=" transition-discrete flex flex-col gap-5 p-5 pt-5 font-medium text-gray-800">
+      <a href=""><li>Home</li></a>
+      <a href=""><li>New</li></a>
+      <a href=""><li>Popular</li></a>
+      <a href=""><li>Trending</li></a>
+      <a href=""><li>Categories</li></a> 
+    </ul>
+  </div>
+  
+<div class = "flex justify-center items-center h-fit">
+<div class=" w-[80%]  " >
+  <header class=" pt-5  flex justify-between items-center relative">
+    
+    <h1 class="font-bold font-serif text-5xl">W.</h1>
+
+   <div class="relative">
+  <!-- Toggle button -->
+  <button id="menu-toggle">
+    <img id="menu-icon" class="w-8" src="assets/images/icon-menu.svg" alt="menu icon">
+  </button>
+
+  <!-- Menu -->
+  
+</div>
+
+  </header>
+    
+
+
+  <div class = "mt-[15px] flex flex-col justify-evenly sm:grid grid-cols-3 grid-rows-[1fr_2fr_1fr_1fr_1fr]  border-amber-600 min-h-screen gap-5">
+    <div class=" col-start-1 col-end-3 row-start-1 row-end-3 overflow-y-hidden " ><img src="assets/images/image-web-3-mobile.jpg" alt=""></div>
+    <div class="col-start-1 col-end-2 row-start-3 row-end-5 "><h1 class = "font-bold text-5xl"> The Bright Future Of Web 3.0?</h1></div>
+    <div class="col-start-2 col-end-3 row-start-3 row-end-5  h-[23vh] flex flex-col gap-3 items-start  ">
+      <p class="overflow-hidden ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta veritatis quia fuga, minus consequuntur, perferendis eligendi nulla voluptatem, rerum totam enim. Hic nam vero nulla eaque sed velit ducimus voluptates. lo</p>
+      <button class="bg-[hsl(5,85%,63%)] rounded text-black hover:cursor-pointer px-5 py-1 font-bold">Read more</button>
+    </div>
+
+    <div class="col-start-3 col-end 4 row-start-1 row-end-5  bg-[hsl(240,100%,5%)]">
+      <h3 class="text-[hsl(35,77%,62%)] mt-3 ml-4 font-extrabold text-3xl">New</h3>
+      <div class="new">
+        <h1>Hydroge VS Electric Cars</h1>
+        <p>Will hydrogen-fueled cars ever catch up to EVs</p>
+      </div>
+      <hr>
+      <div class="new">
+        <h1>The Downside of AI Artistry</h1>
+        <p>Will hydrogen-fueled cars ever catch up to EVs</p>
+      </div>
+      <hr>
+        <div class="new">
+        <h1>Is VC funding Drying up?</h1>
+        <p>Will hydrogen-fueled cars ever catch up to EVs</p>
+      </div>
+
+
+    </div>
+    <div class=" card col-start-1 col-end-2 row-start-5 row-end-6" >
+      <div><img src="assets/images/image-retro-pcs.jpg" alt=""></div>
+      <div class = "card-data">
+        <h3>01</h3>
+        <h4>Revivng Retro PCs</h4>
+        <p>sometext</p>
+      </div>
+    </div>
+     <div class=" card col-start-2 col-end-3 row-start-5 row-end-6 ">
+      <div><img src="assets/images/image-top-laptops.jpg" alt=""></div>
+      <div class = "card-data">
+        <h3>02</h3>
+        <h4>Top 10 Laptops of 2022</h4>
+        <p>sometext</p>
+      </div>
+    </div>
+     <div class=" card col-start-3 col-end-4 row-start-5 row-end-6 ">
+      <div><img src="assets/images/image-gaming-growth.jpg" alt=""></div>
+      <div class = "card-data">
+        <h3>03</h3>
+        <h4>The Growth of Gaming</h4>
+        <p>sometext</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  
+
+</body>
+</html>

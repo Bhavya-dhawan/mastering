@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+
+.card img{
+    @apply h-[15vh] object-fill
+}
+.card {
+    @apply flex 
+}
+.card-data{
+    @apply flex flex-col justify-center ml-4
+}
+.card-data h3{
+    @apply text-[hsl(5,85%,63%)] text-3xl font-bold
+}
+.card-data h4{
+    @apply font-bold text-[1rem] font-sans
+}
+.card-data p{
+    @apply text-gray-400
+}
+.new{
+    @apply text-amber-50 flex flex-col gap-2 p-5
+}
+.new h1{
+    @apply font-bold font-sans
+}
+.new p{
+    @apply text-gray-300 text-sm 
+}
+hr{
+    @apply bg-amber-50 my-2
+}
