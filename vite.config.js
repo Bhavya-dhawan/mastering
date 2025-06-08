@@ -4,5 +4,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-  root: 'news-homepage-main',
+  root: 'modern-ui',
 })

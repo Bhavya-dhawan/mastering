@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.inter-font {
+  font-family:  "Savate",sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+}
+.card{
+    @apply w-[100px] rounded-2xl shadow-2xl 
+}
