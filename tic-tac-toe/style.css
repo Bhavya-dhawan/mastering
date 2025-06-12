@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
 
-
+body{
+    overflow: hidden;
+}
 .player{
     @apply border-4 border-blue-600 rounded-2xl text-center font-bold flex justify-center items-center text-5xl cursor-pointer shadow-[0_2px_20px_#2563EB] text-green-300
 }
