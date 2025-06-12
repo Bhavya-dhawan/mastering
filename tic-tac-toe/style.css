@@ -12,16 +12,16 @@
      @apply border-4 border-blue-600 text-green-300
 }
 .heading1{
-    @apply px-4 py-3 text-4xl font-bold border-2 rounded-2xl text-white bg-blue-600 text-center shadow-[0_5px_10px_#1F2937]
+    @apply px-4 py-3 text-4xl font-bold  rounded-2xl text-white bg-blue-600 text-center shadow-[0_5px_10px_#1F2937]
 }
 
 .heading2{
-    @apply px-4 py-3 text-4xl font-bold border-2 rounded-2xl text-white bg-pink-400 text-center shadow-[0_5px_10px_#1F2937]
+    @apply px-4 py-3 text-4xl font-bold  rounded-2xl text-white bg-pink-400 text-center shadow-[0_5px_10px_#1F2937]
 }
 .result1{
-    @apply border-2 absolute h-[30vh] w-[100vw] bg-blue-600   font-bold flex justify-center items-center text-white text-6xl shadow-[0_40px_100px_#2563EB]
+    @apply  absolute h-[70vh] rounded-4xl w-[100vw] bg-blue-600   font-bold flex justify-center items-center text-white md:text-6xl text-5xl shadow-[0_40px_100px_#2563EB]
 }
 
 .result2{
-    @apply border-2 absolute h-[30vh] w-[100vw] bg-pink-400  font-bold flex justify-center items-center text-white text-6xl shadow-[0_40px_100px_#F472B6]
+    @apply  absolute h-[70vh] rounded-4xl w-[100vw] bg-pink-400  font-bold flex justify-center items-center text-white md:text-6xl text-5xl shadow-[0_40px_100px_#F472B6]
 }
